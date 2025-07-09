@@ -13,7 +13,7 @@ public class Biblioteca {
     public void adicionarLivro(String titulo, String autor){
         Livro novoLivro = new Livro(titulo, autor);
         Livros.add(novoLivro);
-       // System.out.println("Livro '" + titulo + " adicionado com sucesso!");
+        System.out.println("Livro '" + titulo + " adicionado com sucesso!");
     }
 
     public void listarTodosLivros(){
